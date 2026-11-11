@@ -344,10 +344,10 @@ table.data th.num{text-align:right}
 .split-img img{width:100%;height:100%;object-fit:cover;aspect-ratio:4/3}
 .callout{
   background:var(--charcoal);border:1px solid var(--line);border-radius:18px;
-  padding:2.6rem;text-align:center;
+  padding:2.6rem;text-align:center;color:var(--text);
 }
-.callout h2{margin-bottom:.8rem}
-.callout .lede{margin:0 auto 1.8rem}
+.callout h2{margin-bottom:.8rem;color:var(--text)}
+.callout .lede{margin:0 auto 1.8rem;color:var(--muted)}
 .pill-row{display:flex;flex-wrap:wrap;gap:.6rem}
 .pill{
   display:inline-flex;align-items:center;padding:.45rem 1rem;border-radius:999px;
